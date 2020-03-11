@@ -1,8 +1,14 @@
-div .center {
+.full {
+  background-color: rgba(255, 0, 255, 0.04);
+}
+.full .border {
+  border-color: rgba(70, 246, 248, 0.41) !important;
+}
+.full div .center {
   margin: 0 auto;
   text-align: center;
 }
-div .header {
+.full div .header {
   max-height: 300px;
   min-height: 150px;
   background-image: url("../img/header.jpg");
@@ -10,6 +16,25 @@ div .header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-div .conteudo {
-  margin-top: 1rem;
+.full div .conteudo {
+  background-color: #f2fafdd4;
+  color: #0b495e;
+}
+.full .notify .alerta {
+  background-color: white;
+  border-radius: 15px;
+  transition: 0.3s;
+  transform: translate3d(0, -100px, 0);
+  z-index: 200;
+  opacity: 0;
+}
+.full .notify .alerta-transform {
+  z-index: 1;
+  transform: translate3d(0, 200px, 0);
+  opacity: 1;
+}
+.full .btn-enviar {
+  background-color: #0b496b;
+  color: #cedde3;
+  border-color: #adf7fb;
 }
