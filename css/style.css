@@ -1,0 +1,15 @@
+div .center {
+  margin: 0 auto;
+  text-align: center;
+}
+div .header {
+  max-height: 300px;
+  min-height: 150px;
+  background-image: url("../img/header.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div .conteudo {
+  margin-top: 1rem;
+}
