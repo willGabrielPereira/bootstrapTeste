@@ -137,15 +137,15 @@ include "php/util.php";
                                     <h1 class="display-4">Contato</h1>
                                     <div class="form-group">
                                         <label for="nome">nome</label>
-                                        <input type="text" class="form-control form-control-lg" id="nomeContato" placeholder="Nome">
+                                        <input type="text" class="form-control" id="nomeContato" placeholder="Nome">
                                     </div>
                                     <div class="form-group">
                                         <label for="email">Email</label>
-                                        <input type="Email" class="form-control form-control-sm" id="emailContato" placeholder="Email">
+                                        <input type="Email" class="form-control" id="emailContato" placeholder="Email">
                                     </div>
                                     <div class="form-group">
                                         <label for="fone">Fone</label>
-                                        <input type="text" class="form-control form-control-sm" id="foneContato" placeholder="Fone">
+                                        <input type="text" class="form-control" id="foneContato" placeholder="Fone">
                                     </div>
                                     <button type="button" id="contato" class="btn btn-enviar">Enviar</button>
                                 </form><br>
@@ -154,7 +154,8 @@ include "php/util.php";
                             <!--    CADASTRO    -->
                             <div class="col-8 ">
                                 <form>
-                                    <h1 class="display-4">Cadastro</h1>
+                                    <h1 class="display-4 mb-3">Cadastro</h1>
+                                    <label> </label>
                                     <div class="form-row">
                                         <div class="col-3">
                                             <input type="text" class="form-control" id="nome" placeholder="Nome">
@@ -179,6 +180,17 @@ include "php/util.php";
                                                     <div class="input-group-text"><i class="fas fa-envelope"></i></div>
                                                 </div>
                                                 <input type="email" class="form-control" id="email" placeholder="Email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group"></div>
+                                    <div class="form-row">
+                                        <div class="col-12">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><i class="fas fa-phone"></i></div>
+                                                </div>
+                                                <input type="text" class="form-control" id="fone" placeholder="Fone">
                                             </div>
                                         </div>
                                     </div>
